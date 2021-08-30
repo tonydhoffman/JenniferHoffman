@@ -1343,8 +1343,14 @@ a {
     padding-right: 50px;
   }
 }
-.cid-sv2BwvlIqT .navbar-dropdown {
-  position: relative !important;
+.cid-sv2BwvlIqT {
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  min-height: 60px;
+}
+.cid-sv2BwvlIqT nav.navbar {
+  position: fixed;
 }
 .cid-sv2BwvlIqT .dropdown-item:before {
   font-family: Moririse2 !important;
@@ -1659,6 +1665,7 @@ a {
 }
 .cid-sv2BwvlIqT .navbar-dropdown {
   padding: 0 1rem;
+  position: fixed;
 }
 .cid-sv2BwvlIqT a.nav-link {
   display: flex;
